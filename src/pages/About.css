@@ -1,0 +1,108 @@
+.about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #0c0c0c;
+}
+
+.about-title {
+    text-align: center;
+    font-size: 2.5em;
+    color: #39a16d;
+    margin-bottom: 1em;
+}
+
+.about-intro,
+.projects,
+.mission-vision {
+    margin-bottom: 2em;
+}
+
+.about-intro p,
+.mission-vision p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.about-image {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 1em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(45, 165, 51, 0.1);
+}
+
+.projects {
+    text-align: center;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.project {
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 45%;
+    box-shadow: 0 4px 8px rgba(35, 121, 71, 0.1);
+}
+
+.project h3 {
+    color: #42ad80;
+}
+
+.mission-vision {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.mission,
+.vision {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    background: #85e6b938;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.mission h2,
+.vision h2 {
+    color: #28a745;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .projects-container,
+    .mission-vision {
+        flex-direction: column;
+    }
+
+    .project,
+    .mission,
+    .vision {
+        width: 100%;
+    }
+}

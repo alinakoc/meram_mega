@@ -1,0 +1,25 @@
+.calendar-container {
+    max-width: 350px;
+    margin: 20px auto;
+    text-align: center;
+    background-color: #70998d83;
+    box-shadow: 0 0 10px rgba(65, 129, 113, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.calendar-header {
+    margin-bottom: 20px;
+}
+
+.calendar-days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.calendar-day {
+    padding: 10px;
+    background-color: #f5fcfb;
+    border-radius: 4px;
+}
